@@ -1,21 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AD-Rsail.otf">
+            <string>AD-Rsail</string>
+        </array>
+        <array key="DroidNaskh-Bold.ttf">
+            <string>DroidArabicNaskh-Bold</string>
+        </array>
+        <array key="DroidSansArabic.ttf">
+            <string>DroidSansArabic</string>
+        </array>
+        <array key="Neckar Font Bold.ttf">
+            <string>ANegaar-Bold</string>
+        </array>
+        <array key="Sane Font.ttf">
+            <string>SaneJalehFont-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Custom_Font" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRE-Db-eBO">
+                                <rect key="frame" x="16" y="60" width="343" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17Y-cr-1gu">
+                                <rect key="frame" x="16" y="91" width="343" height="26.5"/>
+                                <fontDescription key="fontDescription" name="AD-Rsail" family="AD-Rsail" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59N-ur-3pn">
+                                <rect key="frame" x="16" y="126" width="343" height="32.5"/>
+                                <fontDescription key="fontDescription" name="DroidArabicNaskh-Bold" family="Droid Arabic Naskh" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCf-TX-WfE">
+                                <rect key="frame" x="16" y="166" width="343" height="24.5"/>
+                                <fontDescription key="fontDescription" name="DroidSansArabic" family="Droid Sans Arabic" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiA-4D-DHn">
+                                <rect key="frame" x="16" y="199" width="343" height="17"/>
+                                <fontDescription key="fontDescription" name="ANegaar-Bold" family="Neckar" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZ5-Cx-r2R">
+                                <rect key="frame" x="16" y="224" width="343" height="17"/>
+                                <fontDescription key="fontDescription" name="SaneJalehFont-Bold" family="Sane Jaleh Font" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmB-0z-x6b">
+                                <rect key="frame" x="16" y="455" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cF-gH-uhW">
+                                <rect key="frame" x="16" y="484" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hst-ah-all">
+                                <rect key="frame" x="16" y="512.5" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDF-1G-I1x">
+                                <rect key="frame" x="16" y="541" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVf-sR-GTk">
+                                <rect key="frame" x="16" y="569.5" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efU-F2-aJe">
+                                <rect key="frame" x="16" y="598" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصطفي عبد الفتاح محمد علي اسماعيل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tx3-cr-bBp">
+                                <rect key="frame" x="16" y="626.5" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by code" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixn-8M-3sD">
+                                <rect key="frame" x="136.5" y="315.5" width="102.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="17Y-cr-1gu" firstAttribute="top" secondItem="TRE-Db-eBO" secondAttribute="bottom" constant="8" id="0LD-96-lkl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="17Y-cr-1gu" secondAttribute="trailing" constant="16" id="0Ld-rF-EjU"/>
+                            <constraint firstItem="Ixn-8M-3sD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0w0-WB-fp8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XmB-0z-x6b" secondAttribute="trailing" constant="16" id="2tF-6f-HnE"/>
+                            <constraint firstItem="Ixn-8M-3sD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Bg-Uu-jTR"/>
+                            <constraint firstItem="59N-ur-3pn" firstAttribute="top" secondItem="17Y-cr-1gu" secondAttribute="bottom" constant="8" id="43c-pI-taJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yVf-sR-GTk" secondAttribute="trailing" constant="16" id="5Pp-Un-JV6"/>
+                            <constraint firstItem="OCf-TX-WfE" firstAttribute="top" secondItem="59N-ur-3pn" secondAttribute="bottom" constant="8" id="8dN-hO-VKG"/>
+                            <constraint firstItem="tx3-cr-bBp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9LP-X7-V7a"/>
+                            <constraint firstItem="eZ5-Cx-r2R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ACI-jm-ez2"/>
+                            <constraint firstItem="TRE-Db-eBO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="HvM-wy-WEv"/>
+                            <constraint firstItem="cDF-1G-I1x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="INH-T8-1Ri"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TRE-Db-eBO" secondAttribute="trailing" constant="16" id="IfT-Oc-7IX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OCf-TX-WfE" secondAttribute="trailing" constant="16" id="KV5-X9-aNI"/>
+                            <constraint firstItem="hst-ah-all" firstAttribute="top" secondItem="9cF-gH-uhW" secondAttribute="bottom" constant="8" id="NKb-t4-aQF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="59N-ur-3pn" secondAttribute="trailing" constant="16" id="Q0D-Yo-Nbc"/>
+                            <constraint firstItem="9cF-gH-uhW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SEQ-5G-vwz"/>
+                            <constraint firstItem="XmB-0z-x6b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ude-Fu-S73"/>
+                            <constraint firstItem="17Y-cr-1gu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ukd-ed-OeK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eZ5-Cx-r2R" secondAttribute="trailing" constant="16" id="VAM-8c-MuZ"/>
+                            <constraint firstItem="yVf-sR-GTk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="VaE-tv-vY3"/>
+                            <constraint firstItem="TRE-Db-eBO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Wia-Wf-hfe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iiA-4D-DHn" secondAttribute="trailing" constant="16" id="XZf-7p-5CD"/>
+                            <constraint firstItem="efU-F2-aJe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XbH-9h-sy7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hst-ah-all" secondAttribute="trailing" constant="16" id="YT9-CR-8tT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9cF-gH-uhW" secondAttribute="trailing" constant="16" id="ZB3-XF-xR3"/>
+                            <constraint firstItem="iiA-4D-DHn" firstAttribute="top" secondItem="OCf-TX-WfE" secondAttribute="bottom" constant="8" id="apB-6b-LVR"/>
+                            <constraint firstItem="cDF-1G-I1x" firstAttribute="top" secondItem="hst-ah-all" secondAttribute="bottom" constant="8" id="b1R-Ab-eYv"/>
+                            <constraint firstItem="yVf-sR-GTk" firstAttribute="top" secondItem="cDF-1G-I1x" secondAttribute="bottom" constant="8" id="go1-4g-kQr"/>
+                            <constraint firstItem="hst-ah-all" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ivX-k8-yfj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tx3-cr-bBp" secondAttribute="bottom" constant="20" id="k3J-1i-fQp"/>
+                            <constraint firstItem="iiA-4D-DHn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mkh-5e-xdM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="efU-F2-aJe" secondAttribute="trailing" constant="16" id="ofn-DU-cqL"/>
+                            <constraint firstItem="tx3-cr-bBp" firstAttribute="top" secondItem="efU-F2-aJe" secondAttribute="bottom" constant="8" id="oqn-wU-16k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cDF-1G-I1x" secondAttribute="trailing" constant="16" id="pYZ-yO-eUX"/>
+                            <constraint firstItem="OCf-TX-WfE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rqj-Cd-ZgI"/>
+                            <constraint firstItem="efU-F2-aJe" firstAttribute="top" secondItem="yVf-sR-GTk" secondAttribute="bottom" constant="8" id="v2H-AX-o2m"/>
+                            <constraint firstItem="eZ5-Cx-r2R" firstAttribute="top" secondItem="iiA-4D-DHn" secondAttribute="bottom" constant="8" id="vEQ-Ce-qSX"/>
+                            <constraint firstItem="9cF-gH-uhW" firstAttribute="top" secondItem="XmB-0z-x6b" secondAttribute="bottom" constant="8" id="wht-g8-O01"/>
+                            <constraint firstItem="59N-ur-3pn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="x9j-6e-6HZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tx3-cr-bBp" secondAttribute="trailing" constant="16" id="xcP-hE-sw7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="label0" destination="XmB-0z-x6b" id="Z9M-rC-y6C"/>
+                        <outlet property="label1" destination="9cF-gH-uhW" id="xpH-4I-Jjf"/>
+                        <outlet property="label2" destination="hst-ah-all" id="XXu-ZN-wXd"/>
+                        <outlet property="label3" destination="cDF-1G-I1x" id="CLF-Qc-iiV"/>
+                        <outlet property="label4" destination="yVf-sR-GTk" id="wfi-wZ-0rc"/>
+                        <outlet property="label5" destination="efU-F2-aJe" id="LyB-Vc-Jal"/>
+                        <outlet property="label6" destination="tx3-cr-bBp" id="j5D-zn-zSJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

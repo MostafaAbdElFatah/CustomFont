@@ -12,6 +12,13 @@
 		613F1DB52177754600097748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DB32177754600097748 /* Main.storyboard */; };
 		613F1DB72177754700097748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DB62177754700097748 /* Assets.xcassets */; };
 		613F1DBA2177754700097748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DB82177754700097748 /* LaunchScreen.storyboard */; };
+		613F1DCA2177785A00097748 /* DroidNaskh-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DC32177785900097748 /* DroidNaskh-Regular.ttf */; };
+		613F1DCB2177785A00097748 /* AD-Rsail.otf in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DC42177785900097748 /* AD-Rsail.otf */; };
+		613F1DCC2177785A00097748 /* Neckar Font Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DC52177785900097748 /* Neckar Font Bold.ttf */; };
+		613F1DCD2177785A00097748 /* Neckar Font Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DC62177785900097748 /* Neckar Font Regular.ttf */; };
+		613F1DCE2177785A00097748 /* DroidSansArabic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DC72177785900097748 /* DroidSansArabic.ttf */; };
+		613F1DCF2177785A00097748 /* DroidNaskh-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DC82177785A00097748 /* DroidNaskh-Bold.ttf */; };
+		613F1DD02177785A00097748 /* Sane Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 613F1DC92177785A00097748 /* Sane Font.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		613F1DB62177754700097748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613F1DB92177754700097748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613F1DBB2177754700097748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613F1DC32177785900097748 /* DroidNaskh-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidNaskh-Regular.ttf"; sourceTree = "<group>"; };
+		613F1DC42177785900097748 /* AD-Rsail.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AD-Rsail.otf"; sourceTree = "<group>"; };
+		613F1DC52177785900097748 /* Neckar Font Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neckar Font Bold.ttf"; sourceTree = "<group>"; };
+		613F1DC62177785900097748 /* Neckar Font Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neckar Font Regular.ttf"; sourceTree = "<group>"; };
+		613F1DC72177785900097748 /* DroidSansArabic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansArabic.ttf; sourceTree = "<group>"; };
+		613F1DC82177785A00097748 /* DroidNaskh-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidNaskh-Bold.ttf"; sourceTree = "<group>"; };
+		613F1DC92177785A00097748 /* Sane Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sane Font.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 		613F1DAE2177754600097748 /* Custom Font */ = {
 			isa = PBXGroup;
 			children = (
+				613F1DC22177782400097748 /* fonts */,
 				613F1DAF2177754600097748 /* AppDelegate.swift */,
 				613F1DB12177754600097748 /* ViewController.swift */,
 				613F1DB32177754600097748 /* Main.storyboard */,
@@ -62,6 +77,20 @@
 				613F1DBB2177754700097748 /* Info.plist */,
 			);
 			path = "Custom Font";
+			sourceTree = "<group>";
+		};
+		613F1DC22177782400097748 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				613F1DC42177785900097748 /* AD-Rsail.otf */,
+				613F1DC82177785A00097748 /* DroidNaskh-Bold.ttf */,
+				613F1DC32177785900097748 /* DroidNaskh-Regular.ttf */,
+				613F1DC72177785900097748 /* DroidSansArabic.ttf */,
+				613F1DC52177785900097748 /* Neckar Font Bold.ttf */,
+				613F1DC62177785900097748 /* Neckar Font Regular.ttf */,
+				613F1DC92177785A00097748 /* Sane Font.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +151,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613F1DCE2177785A00097748 /* DroidSansArabic.ttf in Resources */,
+				613F1DCF2177785A00097748 /* DroidNaskh-Bold.ttf in Resources */,
+				613F1DCA2177785A00097748 /* DroidNaskh-Regular.ttf in Resources */,
 				613F1DBA2177754700097748 /* LaunchScreen.storyboard in Resources */,
+				613F1DCD2177785A00097748 /* Neckar Font Regular.ttf in Resources */,
+				613F1DCB2177785A00097748 /* AD-Rsail.otf in Resources */,
 				613F1DB72177754700097748 /* Assets.xcassets in Resources */,
+				613F1DCC2177785A00097748 /* Neckar Font Bold.ttf in Resources */,
 				613F1DB52177754600097748 /* Main.storyboard in Resources */,
+				613F1DD02177785A00097748 /* Sane Font.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
